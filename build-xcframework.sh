@@ -32,4 +32,6 @@ buildFramework "GatewayDemo"
 buildFramework "MinervaDemo"
 stripRedundantImport "MinervaDemo" "GatewayDemo"
 
+zip -r MinervaDemo.zip ./build
+
 
