@@ -1,0 +1,11 @@
+framework module GatewayDemo {
+  umbrella header "GatewayDemo.h"
+
+  export *
+  module * { export * }
+}
+
+module GatewayDemo.Swift {
+    header "GatewayDemo-Swift.h"
+    requires objc
+}
